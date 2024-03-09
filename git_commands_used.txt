@@ -1,0 +1,17 @@
+-- Clone GitHub Repo
+git clone https://github.com/growdataskills/github-to-lambda-demo.git
+
+-- Create New Branch
+git checkout -b test
+
+-- Check files changed
+git status
+
+-- Add changes in commit
+git add .
+
+-- Create commit with message
+git commit -m "message for commit"
+
+-- Push changes
+git push origin test
